@@ -1,0 +1,125 @@
+.nav {
+  position: fixed;
+  min-width: 296px;
+  min-height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .logo {
+  padding: 40px 32px;
+}
+
+.nav .nav-link {
+  padding-left: 32px;
+  position: relative;
+}
+
+.nav .nav-link:hover {
+  color: #198754;
+}
+
+.nav .nav-link:active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  border-left: 4px solid #198754;
+}
+
+.nav .profile {
+  padding: 32px;
+}
+
+.nav .profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 16px;
+}
+
+.nav .name {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.nav .mail {
+  font-size: 14px;
+}
+
+.main {
+  margin-left: 296px;
+  padding-left: 32px;
+}
+
+.assignment {
+  padding: 32px 560px 32px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.assignment h1 {
+  font-size: 24px;
+}
+
+.assignment h2 {
+  font-size: 16px;
+}
+
+.assignment .alert {
+  padding: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.assignment .all {
+  font-size: 16px;
+  padding-left: 32px;
+}
+
+.assignment .list {
+  width: 320px;
+}
+
+.assignment .hw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.assignment .chapter {
+  font-size: 12px;
+}
+
+.assignment .time {
+  font-size: 12px;
+}
+
+.assignment .subject {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.assignment .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.assignment .name {
+  font-size: 12px;
+  color: #6c757d;
+}
+/*# sourceMappingURL=all.css.map */
