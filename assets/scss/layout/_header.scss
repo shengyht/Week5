@@ -1,5 +1,4 @@
 .nav{
-  position: fixed;
   min-width: 296px;
   min-height: 100vh;
   justify-content: space-between;
@@ -37,5 +36,8 @@
   }
   .mail{
     font-size: 14px;
+  }
+  .border{
+    color:#CED4DA;
   }
 }
