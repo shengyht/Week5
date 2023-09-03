@@ -101,11 +101,11 @@
               </li>
             </ul>
           </div>
-          <div class="card" style="width: 584px;">
+          <div class="card">
             <div class="card-header">
               <div>
                 <p class="chapter">Chapter Assignment 2 / HTML&CSS</p>
-                <div class="d-flex jcsb">
+                <div class="d-flex justify-content-between">
                   <p class="title">Please check this file for me, thanks!</p>
                 <span class="material-symbols-outlined">
                   more_vert
@@ -150,19 +150,23 @@
                   • change the <mark class="mark bg-light text-success">display</mark> so it isn’t inline.</p>
               </li>
             </ul>
+            <div class="d-flex justify-content-between py-3">
+              <div class="d-flex"> 
+                <span class="material-symbols-outlined pe-4">
+                  arrow_back_ios
+                  </span>
+                <span class="material-symbols-outlined">
+                    arrow_forward_ios
+                </span>
+              </div>
+            <div class="reply">
+              <button type="button" class="btn btn-outline-success pe-3">Mark as read</button>
+              <button type="button" class="btn btn-success">Reply</button>
+            </div>
+          </div>
           </div>
           
-            <div class="d-flex fdc"> 
-              <span class="material-symbols-outlined">
-                arrow_back_ios
-                </span>
-              <span class="material-symbols-outlined">
-                  arrow_forward_ios
-              </span>
-            </div>
-
-            <button type="button" class="btn btn-outline-success">Mark as read</button>
-          </div>
+      
       </div>
       
     <%- include('./layout/footer'); -%>
